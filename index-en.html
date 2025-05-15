@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moshi Moshi - Japanese Restaurant in A Coruña</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <meta name="description" content="Moshi Moshi Japanese restaurant in A Coruña. Authentic flavors and modern atmosphere. Book your table online.">
+  <meta property="og:title" content="Moshi Moshi - Japanese Restaurant in A Coruña" />
+  <meta property="og:description" content="Enjoy an authentic Japanese experience. Book your table easily online." />
+  <meta property="og:image" content="logo" />
+  <meta property="og:type" content="website" />
+</head>
+<body class="bg-[#e6e1d8] text-red-800 font-sans" style="font-family: 'Noto Sans JP', sans-serif;">
+
+  <!-- Header with centered logo and language button on right -->
+  <header class="relative flex flex-col items-center p-6 md:flex-row md:justify-center">
+    <img src="img/logo.png" alt="Moshi Moshi Logo" class="w-48 md:w-60 mx-auto">
+    <a href="index.html" class="absolute top-6 right-6 bg-white text-red-800 px-4 py-1 rounded-full text-sm hover:bg-red-100 transition">Español</a>
+  </header>
+
+  <!-- Presentation section -->
+  <section class="text-center px-4 md:px-20 mb-12 animate-fade-in">
+    <h1 class="text-3xl md:text-5xl font-bold mb-2">Welcome to Moshi Moshi</h1>
+    <p class="text-xl font-medium mb-6">Japanese Comfort Food</p>
+    <p class="text-lg md:text-xl max-w-2xl mx-auto">
+      Enjoy an authentic Japanese experience in the heart of A Coruña. Traditional flavors, cozy atmosphere, and a modern touch.
+    </p>
+  </section>
+
+  <!-- Booking button -->
+  <section class="text-center mb-6 animate-fade-in">
+    <a href="https://moshisando.myrestoo.net/en/reservar" target="_blank"
+       class="inline-block bg-red-700 hover:bg-red-900 text-white text-xl font-bold py-4 px-10 rounded-full shadow-lg transition duration-300">
+      🍣 Book a table
+    </a>
+  </section>
+
+  <!-- Contact info below button -->
+  <section class="text-center mb-12 animate-fade-in">
+    <p class="text-lg mt-4 font-semibold">
+      📍 <a href="https://maps.app.goo.gl/Tt2wAnSKvKMWH7UF8" target="_blank" class="underline hover:text-red-600">R. Riego de Agua, 2. A Coruña</a>
+    </p>
+    <p class="text-lg">
+      📞 <a href="tel:+34981518031" class="underline hover:text-red-600">+34 981 51 80 31</a>
+    </p>
+  </section>
+
+  <!-- Opening hours -->
+  <section class="text-center mb-12 animate-fade-in">
+    <h2 class="text-2xl font-semibold mb-2">Opening Hours</h2>
+    <p class="text-lg">Monday: Closed for rest</p>
+    <p class="text-lg">Tuesday to Sunday: 1:00 PM - 4:00 PM / 8:00 PM - 11:30 PM</p>
+  </section>
+
+  <!-- Footer with contact and language -->
+  <footer class="bg-red-800 text-white text-center py-6 animate-fade-in">
+    <p class="text-lg font-semibold flex justify-center items-center gap-2">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2V10a2 2 0 012-2h2" />
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 1v9" />
+      </svg>
+      <a href="https://maps.app.goo.gl/Tt2wAnSKvKMWH7UF8" target="_blank" class="underline hover:text-gray-200">R. Riego de Agua, 2. A Coruña</a>
+    </p>
+    <p class="text-lg flex justify-center items-center gap-2">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h2l3.6 7.59a1 1 0 00.93.59H17a1 1 0 001-.76l1.38-5.52A1 1 0 0018.42 5H5.21" />
+      </svg>
+      <a href="tel:+34981518031" class="underline hover:text-gray-200">+34 981 51 80 31</a>
+    </p>
+    <p class="mt-4 text-sm">© 2025 Moshi Moshi</p>
+  </footer>
+
+  <style>
+    .animate-fade-in {
+      animation: fadeIn 1s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+
+</body>
+</html>
